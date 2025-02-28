@@ -1,10 +1,10 @@
 ---
 apiVersion: apps/v1
 kind: Namespace
-metadata:
-  name: 
+metadata: 
+  name: developement
 ---
 apiVersion: apps/v1
 kind: Namespace
 metadata:
-  name: 
+  name: production
