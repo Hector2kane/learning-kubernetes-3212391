@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: quote-service
+  name: quote-service-hector
   namespace: development
   labels:
-    app: quote-service
+    app: quote-service-hector
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: quote-service
+      app: quote-service-hector
   template:
     metadata:
       labels:
-        app: quote-service
+        app: quote-service-hector
     spec:
       containers:
       - name: quote-container
